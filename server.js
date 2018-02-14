@@ -3,7 +3,7 @@ var app = express();
 var server = app.listen(3000, listening);
 
 function listening() {
-  console.log('Funcionaaaaaaaaaaaa');
+  console.log('Funciona');
 }
 
 // La misma configuracion pero con es6 :)
