@@ -58,6 +58,7 @@ window.addEventListener('load', function() {
       moreText.setAttribute('href', web);
       moreText.setAttribute('target', '_blank');
       container.appendChild(moreText);
+      /* incorporando la imagen*/
       let imagen = document.createElement('img');
       imagen.setAttribute('src', `https://static01.nyt.com/${imgs}`);
       container.appendChild(imagen);
