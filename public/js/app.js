@@ -35,6 +35,8 @@ window.addEventListener('load', function() {
       const title = article[i].headline.main;
       const snippet = article[i].snippet;
       const web = article[i].web_url;
+      const imgs = article[i].multimedia[0].url;
+      console.log(imgs);
       console.log(web);
       /* creación del contenedor*/
       let container = document.createElement('div');
@@ -56,6 +58,9 @@ window.addEventListener('load', function() {
       moreText.setAttribute('href', web);
       moreText.setAttribute('target', '_blank');
       container.appendChild(moreText);
+      let imagen = document.createElement('img');
+      imagen.setAttribute('src', `https://static01.nyt.com/${imgs}`);
+      container.appendChild(imagen);
     });
   };
 });
