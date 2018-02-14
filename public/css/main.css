@@ -9,14 +9,22 @@ font-family: 'Patua One', cursive;
   border-radius: 10px;
   margin-bottom: 3rem;
   box-shadow: 10px 10px;
+  text-align: center;
 }
 
 .title{
   text-decoration: underline;
   color: black;
 }
+.imagen{
+  width: 20vw;
+  height: 50vh;
+  border-radius: 20px;
+}
 
 .link{
   color: black;
-
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
